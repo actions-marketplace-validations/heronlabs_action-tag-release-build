@@ -1,3 +1,15 @@
+## v7.8.5 (2026-09-17)
+
+### Miscellaneous Chores
+
+* other(deps-dev): bump eslint-plugin-jsonc from 3.4.1 to 3.4.2 (#73) (98baf4c71d83bd71c4c8b12a2bf8bc37a9752cc6)
+
+## v7.8.4 (2026-09-17)
+
+### Miscellaneous Chores
+
+* other(deps-dev): bump dependency-cruiser from 18.2.0 to 18.3.0 (#79) (e0bf2658db7c8c30f16b64c1016bc9dac43cad8f)
+
 ## v7.8.3 (2026-08-21)
 
 ### Miscellaneous Chores
