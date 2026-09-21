@@ -17,7 +17,7 @@ jobs:
     name: 'Install & Build'
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: pnpm/action-setup@v6
 
@@ -38,7 +38,7 @@ jobs:
     name: 'Audit & Supply Chain'
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: pnpm/action-setup@v6
 
@@ -58,7 +58,7 @@ jobs:
     name: 'Lint'
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: pnpm/action-setup@v6
 
@@ -76,7 +76,7 @@ jobs:
     name: 'Unit Tests'
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: pnpm/action-setup@v6
 
@@ -103,7 +103,7 @@ jobs:
     name: 'Integration Tests'
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
 
       - uses: pnpm/action-setup@v6
 
@@ -130,7 +130,7 @@ jobs:
     name: 'Mutation Tests'
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
 
